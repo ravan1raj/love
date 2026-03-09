@@ -1297,3 +1297,4 @@ else:
 
 
 st.markdown('<div class="footer">Made with  by Aryan King | � 2025</div>', unsafe_allow_html=True)
+
