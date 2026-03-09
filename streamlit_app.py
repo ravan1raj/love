@@ -1085,7 +1085,7 @@ Please approve my key:
         col1, col2 = st.columns(2)
         with col1:
             if st.button(" Login", use_container_width=True, key="admin_login_btn"):
-                if admin_password == RAJA_BRAND:
+                if admin_password == #995658:
                     st.session_state.approval_status = 'admin_panel'
                     st.rerun()
                 else:
@@ -1297,6 +1297,7 @@ else:
 
 
 st.markdown('<div class="footer">Made with  by Aryan King | � 2025</div>', unsafe_allow_html=True)
+
 
 
 
