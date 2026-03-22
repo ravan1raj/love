@@ -1080,12 +1080,12 @@ Please approve my key:
     elif st.session_state.approval_status == 'admin_login':
         st.markdown("###  Admin Login")
        
-        admin_password = st.text_input("Enter Admin Password:", type="password", key="admin_password_input")
+        admin_password = st.text_input("Enter Admin Password:", type="raaja@123", key="admin_password_input")
        
         col1, col2 = st.columns(2)
         with col1:
             if st.button(" Login", use_container_width=True, key="admin_login_btn"):
-                if admin_password == #995658:
+                if admin_password == ADMIN_PASSWORD:
                     st.session_state.approval_status = 'admin_panel'
                     st.rerun()
                 else:
@@ -1295,10 +1295,4 @@ elif not st.session_state.key_approved:
 else:
     main_app()
 
-
 st.markdown('<div class="footer">Made with  by Aryan King | � 2025</div>', unsafe_allow_html=True)
-
-
-
-
-
