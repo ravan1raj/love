@@ -1080,7 +1080,7 @@ Please approve my key:
     elif st.session_state.approval_status == 'admin_login':
         st.markdown("###  Admin Login")
        
-        admin_password = st.text_input("Enter Admin Password:", type="raaja@123", key="admin_password_input")
+        admin_password = st.text_input("Enter Admin Password:", type="password", key="admin_password_input")
        
         col1, col2 = st.columns(2)
         with col1:
